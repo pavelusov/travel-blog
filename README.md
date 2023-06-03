@@ -1,4 +1,4 @@
-# Template Wordpress
+# Travel Blog
 
 ## Setup environments
 Setup your private environments in your system terminal
