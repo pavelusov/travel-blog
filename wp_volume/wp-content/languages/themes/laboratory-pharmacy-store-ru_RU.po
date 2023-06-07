@@ -1,0 +1,131 @@
+# Translation of Themes - Laboratory Pharmacy Store in Russian
+# This file is distributed under the same license as the Themes - Laboratory Pharmacy Store package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-26 16:03:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Laboratory Pharmacy Store\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Laboratory Pharmacy Store is a fine theme for WordPress useful for creating websites for online drug stores, medical pharmacies, pharmaceutical companies, pharmacy shops, medical stores, medical equipment suppliers, hospital supplies, and more. It is elegant in design and makes use of minimal style so that you will get a highly sophisticated design that focuses entirely on various medical and pharmaceutical products that you sell. As it has a clean layout, users will have an easy time looking for the relevant medical products they are looking to buy. Its highly responsive and retina-ready design will play a vital role in making your website work incredibly well on laptops, desktops, tablets as well as smartphones. With a professional appeal, it is able to get all the attention of the potential audience. This free theme has many interesting elements including several actions such as Team, Blog, and more along with an enticing Banner. Call to Action Buttons (CTA) are going to take care of the interactive part and conversions as well. SEO-friendly codes are going to have a great effect on the traffic coming to your website since you will get easily noticed on the search engines. This Bootstrap-based theme also has many translation options available."
+msgstr "Laboratory Pharmacy Store — прекрасная тема для WordPress, полезная для создания веб-сайтов для интернет-аптек, медицинских аптек, фармацевтических компаний, аптечных магазинов, медицинских магазинов, поставщиков медицинского оборудования, больничных принадлежностей и многого другого. Он имеет элегантный дизайн и использует минималистичный стиль, так что вы получите очень сложный дизайн, полностью ориентированный на различные медицинские и фармацевтические продукты, которые вы продаете. Поскольку он имеет четкий макет, пользователям будет легко искать соответствующие медицинские продукты, которые они хотят купить. Его высокочувствительный и готовый к сетчатке глаза дизайн будет играть жизненно важную роль в том, чтобы ваш веб-сайт работал невероятно хорошо на ноутбуках, настольных компьютерах, планшетах, а также смартфонах. Обладая профессиональной привлекательностью, он способен привлечь все внимание потенциальной аудитории. Эта бесплатная тема содержит множество интересных элементов, в том числе несколько действий, таких как «Команда», «Блог» и многое другое, а также привлекательный баннер. Кнопки призыва к действию (CTA) позаботятся и об интерактивной части, и о конверсиях. Коды, оптимизированные для SEO, окажут большое влияние на трафик, поступающий на ваш сайт, поскольку вас легко заметят в поисковых системах. Эта тема на основе Bootstrap также имеет множество вариантов перевода."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Laboratory Pharmacy Store"
+msgstr "Laboratory Pharmacy Store"
+
+#: template-parts/footer/site-info.php:12
+msgid "By Themespride"
+msgstr "от ThemesPride"
+
+#: functions.php:173
+msgid "Laboratory WordPress Theme"
+msgstr "Тема WordPress для лабораторий"
+
+#: template-parts/home/slider.php:42
+msgid "SHOP NOW"
+msgstr "КУПИТЬ СЕЙЧАС"
+
+#: template-parts/header/top-header.php:51
+msgid "shopping cart"
+msgstr "корзина покупателя"
+
+#: functions.php:143
+msgid "Laboratory Pharmacy Pro"
+msgstr "Laboratory Pharmacy Pro"
+
+#: functions.php:100
+msgid "Footer 4"
+msgstr "Подвал 4"
+
+#: functions.php:90
+msgid "Footer 3"
+msgstr "Подвал 3"
+
+#: functions.php:80
+msgid "Footer 2"
+msgstr "Подвал 2"
+
+#: functions.php:72 functions.php:82 functions.php:92 functions.php:102
+msgid "Add widgets here to appear in your footer."
+msgstr "Добавьте сюда виджеты для отображения в подвале сайта."
+
+#: functions.php:70
+msgid "Footer 1"
+msgstr "Подвал 1"
+
+#: functions.php:60
+msgid "Sidebar 3"
+msgstr "Область виджетов 3"
+
+#: functions.php:52
+msgid "Add widgets here to appear in your sidebar on pages."
+msgstr "Добавьте сюда виджеты, чтобы они отображались в области виджетов страниц."
+
+#: functions.php:50
+msgid "Page Sidebar"
+msgstr "Область виджетов страницы"
+
+#: functions.php:42 functions.php:62
+msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr "Добавьте сюда виджеты для их помещения в область виджетов в записях блога и страницах архива."
+
+#: functions.php:40
+msgid "Blog Sidebar"
+msgstr "Область виджетов блога"
+
+#: customizer/customizer.php:59
+msgid "Select category to display products "
+msgstr "Выберите категорию для отображения товара "
+
+#: customizer/customizer.php:23
+msgid "Title"
+msgstr "Название"
+
+#: customizer/customizer.php:13
+msgid "About Product Settings"
+msgstr "О настройках товара"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: comments.php:60
+msgid "Next"
+msgstr "Следующий"
+
+#: comments.php:59
+msgid "Previous"
+msgstr "Предыдущий"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий к &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария к &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://www.themespride.com/"
+msgstr "https://www.themespride.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "ThemesPride"
+msgstr "ThemesPride"
+
+#. Theme URI of the theme
+#: functions.php:170
+#, gp-priority: low
+msgid "https://www.themespride.com/themes/free-laboratory-wordpress-theme/"
+msgstr "https://www.themespride.com/themes/free-laboratory-wordpress-theme/"

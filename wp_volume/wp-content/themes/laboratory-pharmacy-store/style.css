@@ -1,0 +1,249 @@
+/*
+Theme Name: Laboratory Pharmacy Store
+Template: online-pharmacy
+Text Domain: laboratory-pharmacy-store
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-laboratory-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Laboratory Pharmacy Store is a fine theme for WordPress useful for creating websites for online drug stores, medical pharmacies, pharmaceutical companies, pharmacy shops, medical stores, medical equipment suppliers, hospital supplies, and more. It is elegant in design and makes use of minimal style so that you will get a highly sophisticated design that focuses entirely on various medical and pharmaceutical products that you sell. As it has a clean layout, users will have an easy time looking for the relevant medical products they are looking to buy. Its highly responsive and retina-ready design will play a vital role in making your website work incredibly well on laptops, desktops, tablets as well as smartphones. With a professional appeal, it is able to get all the attention of the potential audience. This free theme has many interesting elements including several actions such as Team, Blog, and more along with an enticing Banner. Call to Action Buttons (CTA) are going to take care of the interactive part and conversions as well. SEO-friendly codes are going to have a great effect on the traffic coming to your website since you will get easily noticed on the search engines. This Bootstrap-based theme also has many translation options available.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, flexible-header, e-commerce, food-and-drink, education
+Version: 1.6
+Tested up to: 6.2
+Requires PHP: 7.2
+Requires at least: 5.0
+*/
+
+h1,h2,h3,h4,h5,h6,.main-navigation a{
+  font-family: 'Viga', sans-serif;
+  font-weight: normal;
+}
+
+#main-content a,.box-content p a,.box-content li a,.box-content a{
+  text-decoration: underline;
+}
+
+/* COLOR CSS */
+
+.readmore-btn a,.top-header,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.site-info,#comments input[type="submit"],#theme-sidebar button[type="submit"], #footer button[type="submit"],button[type="submit"],.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar .tagcloud a:hover,span.meta-nav,.book-tkt-btn a,.more-btn a,#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover,nav.woocommerce-MyAccount-navigation ul li:hover{
+  background: #4e97fd;
+}
+a, a:hover,.main-navigation a:hover,#theme-sidebar h3,#theme-sidebar a:hover,#theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a{
+  color: #4e97fd;
+}
+#footer .tagcloud a:hover{
+  border-color: #4e97fd;
+}
+
+.site-info a:hover,.media-links i:hover, .top-header a:hover {
+  color: #000;
+}
+.media-links i,nav.woocommerce-MyAccount-navigation ul li:hover a{
+  color: #fff;
+}
+
+/* SLIDER CSS */
+
+.top-header {
+  text-align: right;
+}
+.header-search form{
+  border: none;
+}
+.header-search {
+  background: #fff;
+  border-radius: 30px;
+}
+.header-search input[type="search"] {
+  padding: 6px 10px;
+}
+.header-search [type="submit"] {
+  background: url(assets/images/search.png) no-repeat scroll 0 8px;
+}
+.headerbox,.page-template-front-page .headerbox {
+  background: #d6eef6;
+}
+#slider .carousel-caption {
+  right: 15%;
+  left: 45%;
+  text-align: right;
+}
+#slider .inner_carousel h2{
+  font-size: 45px;
+  text-transform: uppercase;
+}
+#slider .inner_carousel h2,h1, h2, h3, h4, h5, h6,.logo h1 a{
+  color: #333333;
+}
+#slider .inner_carousel p{
+  color: #6b6b6b;
+}
+#slider .carousel-control-next {
+  left: auto;
+}
+#slider .carousel-control-prev {
+  right: auto;
+}
+#slider .carousel-control-next, #slider .carousel-control-prev {
+  width: 15%;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+}
+#slider img {
+  opacity: 0.5;
+}
+.readmore-btn a,#theme-sidebar h3{
+  font-weight: normal;
+}
+
+/* FEATURED PRODUCTS CSS */
+
+.featured-review__stars .fas{
+  color: #ffc107;
+}
+#abt-product .star-rating {
+  overflow: hidden;
+  position: relative;
+  height: 1em;
+  line-height: 1;
+  font-size: 1em;
+  width: 5.4em;
+  font-family: star;
+  color: #fdce38;
+}
+#abt-product .star-rating::before {
+  content: "\73\73\73\73\73";
+  color: #d3ced2;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+#abt-product .star-rating span::before {
+  content: "\53\53\53\53\53";
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+#abt-product .star-rating span {
+  overflow: hidden;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding-top: 1.5em;
+}
+.product-content {
+  background: #4e97fd;
+  padding: 5px 10px;
+}
+.product-content h5 a {
+  color: #fff;
+}
+.product-content h5 {
+  text-align: left;
+  font-size: 15px;
+}
+.product-content span.woocommerce-Price-amount {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+#abt-product h3 {
+  overflow: hidden;
+  text-align: center;
+  font-size: 35px;
+}
+#abt-product h3:before, #abt-product h3:after {
+  border-bottom: 5px double #4e97fd;
+  content: "";
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 10%;
+}
+#abt-product h3:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+#abt-product h3:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* OTHER CSS */
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid #333;
+  padding: 2px;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+@media screen and (max-width: 560px){
+  #slider .inner_carousel h2 {
+    font-size: 16px;
+  }
+  .more-btn {
+    margin: 10px 0;
+  }
+  #abt-product h3:before, #abt-product h3:after{
+    content: unset;
+    position: static;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .top-header{
+    text-align: center;
+  }
+  .logo{
+    text-align: left;
+  }
+  .toggle-nav button {
+    background: #4e97fd;
+    padding: 0px 10px;
+  }
+  #slider .carousel-caption {
+    left: 15%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+  #slider .carousel-caption {
+    left: 30%;
+  }
+}

@@ -27,7 +27,7 @@ services:
       - WORDPRESS_DB_PASSWORD=$MYSQL_PASSWORD
       - WORDPRESS_DB_NAME=wordpress
     volumes:
-      - wordpress:/var/www/html
+      - "./wp_volume:/var/www/html:rw"
     networks:
       - app-network
 
@@ -40,14 +40,13 @@ services:
     ports:
       - "80:80"
     volumes:
-      - wordpress:/var/www/html
+      - "./wp_volume:/var/www/html:r"
       - ./nginx-conf:/etc/nginx/conf.d
     networks:
       - app-network
 
 volumes:
   dbdata:
-  wordpress:
 
 networks:
   app-network:

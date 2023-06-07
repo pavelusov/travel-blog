@@ -1,0 +1,338 @@
+/*
+Theme Name: Travel Diary
+Theme URI: https://blossomthemes.com/wordpress-themes/travel-diary/
+Template: blossom-pin
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Travel Diary is a Pinterest-style and feminine WordPress theme for professional travel bloggers. You can easily create a visually appealing and eye-catching site to share your expert fashion tips, your favorite recipes, or create a lifestyle, travel, food, beauty and makeup, coaching, or any other themed blog. With Travel Diary, you can customize the look and feel of your website with unlimited colors and 1000+ Google fonts. This theme is mobile-friendly, SEO optimized and loads fast to help your site rank better on search engines. The strategically placed newsletter section will help you to grow your subscribers. 
+Requires at least: 4.7
+Requires PHP: 5.6
+Tested up to: 6.0
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: travel-diary
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+
+
+:root{
+	--primary-color: #f48585;
+	--primary-font: 'Inter', sans-serif;
+	--secondary-font: 'Cormorant Garamond', serif;
+}
+
+/*========================================
+ Header Layout Two Style
+ ========================================*/
+ .site-header .site-branding .site-title{
+	font-size: 3em;
+}
+
+ .header-layout-two {
+    padding: 0;
+    display: block;
+}
+
+.header-layout-two .header-t {
+    background-size: cover !important;
+    text-align: center;
+    padding: 30px 0 25px;
+}
+
+.header-layout-two .site-branding {
+    width: 100%;
+}
+
+.header-layout-two .site-branding.has-logo-text {
+    justify-content: center;
+}
+
+.header-layout-two .site-branding.has-logo-text .custom-logo-link {
+    float: left;
+}
+
+.header-layout-two .site-branding.has-logo-text .site-title-wrap {
+    width: auto;
+    text-align: left;
+}
+
+.header-layout-two .header-b {
+    background: #fff;
+    padding: 18px 0 17px;
+}
+
+.header-layout-two .main-navigation {
+    float: left;
+    width: auto;
+}
+
+.header-layout-two .main-navigation ul ul {
+    padding-top: 18px;
+}
+
+.header-layout-two .main-navigation ul ul ul {
+    padding-top: 0;
+}
+
+.header-layout-two .tools {
+    float: right;
+    width: auto;
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.logged-in .search-form-holder {
+    margin-top: 32px;
+}
+
+.search-form-holder .search-form input[type="search"]:focus{
+	outline: none;
+}
+
+/*========================================
+ blog 
+ ========================================*/
+
+ .blog #primary .post .entry-header .entry-title a,
+ .banner-layout-two .text-holder .entry-title a,
+ .banner-slider .item .text-holder .entry-title a{
+     background-image: linear-gradient(180deg, transparent 95%, var(--primary-color) 0);
+     background-size: 0% 100%;
+     background-repeat: no-repeat;
+     -webkit-transition: background-size 0.4s ease;
+     -moz-transition: background-size 0.4s ease;
+     transition: background-size 0.4s ease;
+ }
+ .blog #primary .post .entry-header .entry-title a:hover,
+ .banner-layout-two .text-holder .entry-title a:hover,
+ .banner-slider .item .text-holder .entry-title a:hover{
+     text-decoration: none;
+     background-size: 100% 100%;
+     color: var(--primary-color);
+ }
+
+@media only screen and (max-width: 1024px){
+    .mobile-header .site-branding.has-logo-text .site-title-wrap {
+        width: auto;
+    }
+    .mobile-header .mobile-site-header .site-branding {
+        justify-content: center;
+    }
+}
+
+/*=========================================
+ Banner Layout Eight Style
+ ========================================*/
+
+ .banner-layout-eight {
+    margin-top: 15px;
+}
+
+.banner-layout-eight img {
+    vertical-align: top;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-layout-eight .item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 712px;
+    position: relative;
+}
+
+.banner-layout-eight .holder {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #FF91A4;
+    border-radius: 8px;
+}
+
+.banner-layout-eight .holder:nth-child(1) {
+    width: calc(67% - 8px);
+    height: 100%;
+    margin-right: 8px;
+}
+
+.banner-layout-eight .holder:nth-child(2) {
+    width: 33%;
+    height: calc(50% - 4px);
+    margin-bottom: 4px;
+}
+
+.banner-layout-eight .holder:nth-child(3) {
+    width: 33%;
+    height: calc(50% - 4px);
+    margin-top: 4px;
+}
+
+.banner-layout-eight .text-holder {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.5+100 */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000', GradientType=0);
+    /* IE6-9 */
+    text-align: center;
+    padding: 60px 24px 32px;
+}
+
+.banner-layout-eight .text-holder .category a,
+.banner-layout-eight .text-holder .category span {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 0.556em;
+    line-height: 1em;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 700;
+    background: #FF91A4;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 5px 7px;
+    text-decoration: none;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.banner-layout-eight .text-holder .category a:hover {
+    background: #000;
+}
+
+.banner-layout-eight .text-holder .entry-title {
+    font-size: 1.389em;
+    line-height: 1.240em;
+    font-weight: 700;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    color: #fff;
+}
+
+.banner-layout-eight .holder:nth-child(1) .text-holder .entry-title {
+    font-size: 2.167em;
+    line-height: 1.256em;
+}
+
+.banner-layout-eight .text-holder .entry-title a {
+    color: #fff;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.banner-layout-eight .text-holder .entry-title a:hover {
+    color: #FF91A4;
+}
+
+.banner-layout-eight .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 4px;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.banner-layout-eight .owl-prev:hover {
+    background: #000 !important;
+}
+
+.banner-layout-eight .owl-prev svg {
+    width: 18px;
+    height: 12px;
+    fill: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.banner-layout-eight .owl-next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 4px;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.banner-layout-eight .owl-next:hover {
+    background: #000 !important;
+}
+
+.banner-layout-eight .owl-next svg {
+    width: 18px;
+    height: 12px;
+    fill: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.error-wrapper .error-holder h3 {
+    font-size: 15.333em;
+    margin: 0 0 100px;
+}
+
+/*========================================
+ Responsiveness
+ ========================================*/
+
+ @media only screen and (max-width: 1400px) {
+    .banner-layout-eight .item {
+        height: 550px;
+    }
+ }
+
+ @media only screen and (max-width: 1024px){
+    .site-header {
+        display: none;
+    }
+
+ }
+
+ @media only screen and (max-width: 767px) {
+
+ .banner-layout-eight .item {
+    height: 350px;
+ }
+}

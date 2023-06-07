@@ -1,0 +1,224 @@
+# Translation of Themes - Travel Diary in Russian
+# This file is distributed under the same license as the Themes - Travel Diary package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-21 12:57:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Travel Diary\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Travel Diary is a Pinterest-style and feminine WordPress theme for professional travel bloggers. You can easily create a visually appealing and eye-catching site to share your expert fashion tips, your favorite recipes, or create a lifestyle, travel, food, beauty and makeup, coaching, or any other themed blog. With Travel Diary, you can customize the look and feel of your website with unlimited colors and 1000+ Google fonts. This theme is mobile-friendly, SEO optimized and loads fast to help your site rank better on search engines. The strategically placed newsletter section will help you to grow your subscribers."
+msgstr "Travel Diary — это женский шаблон для WordPress в стиле Pinterest для профессиональных блогерш и путешественниц. Вы можете легко создать привлекательный и привлекающий внимание сайт, чтобы поделиться своими экспертными советами по моде, любимыми рецептами или создать блог о стиле жизни, путешествиях, кулинарии, красоте и макияже. Шаблон Travel Diary позволяет легко менять шрифты и цвет сайта, для этого достаточно пару щелчков мыши, а выбор колоссален, более чем 1000 шрифтов Google и неограниченное количество цветов. Этот шаблон удобен для мобильных устройств, оптимизирована для SEO и быстро загружается, чтобы помочь вашему сайту лучше ранжироваться (быть в топе) в поисковых системах. В шаблоне есть функция для подписки на рассылку, с помощью неё Ваши подписчики буду всегда в курсе Ваших последних новостей."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Travel Diary"
+msgstr "Travel Diary"
+
+#: functions.php:983
+msgid "https://wordpress.org/"
+msgstr "https://ru.wordpress.org/"
+
+#: functions.php:983
+msgid " Powered by %s"
+msgstr " Сайт работает на %s"
+
+#: functions.php:980
+msgid " Travel Diary | Developed By "
+msgstr " Travel Diary | Разработана "
+
+#: functions.php:668
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:667
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:666
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:543
+msgid "Discover More"
+msgstr "Узнать больше"
+
+#: functions.php:542
+msgid "Discover how people in the community create pins to get their attention."
+msgstr "Узнайте, как люди в сообществе создают заметки, чтобы привлечь их внимание."
+
+#: functions.php:541
+msgid "Wondering how your peers are using social media?"
+msgstr "Хотите знать, как ваши коллеги используют социальные сети?"
+
+#: functions.php:498 functions.php:504
+msgid "search form toggle"
+msgstr "Переключить форму поиска"
+
+#: functions.php:457
+msgid "%1$sClick here%2$s to select the layout of slider banner."
+msgstr "%1$sНажмите здесь%2$s чтобы выбрать макет баннера."
+
+#: functions.php:438
+msgid "%1$sClick here%2$s to configure slider settings."
+msgstr "%1$sНажмите здесь%2$s настроить параметры баннера."
+
+#: functions.php:416
+msgid "Choose the layout of the slider for your site."
+msgstr "Выберите макет слайдера для вашего сайта."
+
+#: functions.php:394 functions.php:415
+msgid "Slider Layout"
+msgstr "Макет слайдера"
+
+#: functions.php:381
+msgid "it is the layout for header."
+msgstr "Это макет шапки."
+
+#: functions.php:359 functions.php:380
+msgid "Header Layout"
+msgstr "Макет верхнего колонтитула"
+
+#: functions.php:345
+msgid "This is the general sidebar layout for whole site."
+msgstr "Это общий макет боковой панели для всего сайта."
+
+#: functions.php:344
+msgid "Default Sidebar Layout"
+msgstr "Макет боковой панели по умолчанию"
+
+#: functions.php:319
+msgid "This is the general sidebar layout for posts. You can override the sidebar layout for individual post in respective post."
+msgstr "Это общий макет боковой панели для записи. Вы можете переопределить макет боковой панели для отдельной записи на соответствующей записи."
+
+#: functions.php:318
+msgid "Post Sidebar Layout"
+msgstr "Макет боковой панели страницы"
+
+#: functions.php:293
+msgid "This is the general sidebar layout for pages. You can override the sidebar layout for individual page in respective page."
+msgstr "Это общий макет боковой панели для страниц. Вы можете переопределить макет боковой панели для отдельной страницы на соответствующей странице."
+
+#: functions.php:292
+msgid "Page Sidebar Layout"
+msgstr "Расположение боковой панели страницы"
+
+#: functions.php:271
+msgid "Change Page, Post and General sidebar layout from here."
+msgstr "Измените макет страницы, записи и главной боковой панели тут."
+
+#: functions.php:270
+msgid "General Sidebar Layout"
+msgstr "Главный макет боковой панели"
+
+#: functions.php:253
+msgid "Flush Local Fonts Cache"
+msgstr "Очистить кэш локальных шрифтов"
+
+#: functions.php:239
+msgid "Flush Local Font Files"
+msgstr "Очистить локальные файлы шрифтов"
+
+#: functions.php:237
+msgid "Click the button to reset the local fonts cache"
+msgstr "Нажмите кнопку, чтобы сбросить локальный кэш шрифтов"
+
+#: functions.php:229
+msgid "Preloading Google fonts will speed up your website speed."
+msgstr "Предварительная загрузка шрифтов Google ускорит работу вашего сайта."
+
+#: functions.php:228
+msgid "Preload Local Fonts"
+msgstr "Предзагрузка локальных шрифтов"
+
+#: functions.php:209
+msgid "Enable to load google fonts from your own server instead from google's CDN. This solves privacy concerns with Google's CDN and their sometimes less-than-transparent policies."
+msgstr "Включите загрузку шрифтов Google с вашего собственного сервера, а не с CDN Google. Это решает проблемы конфиденциальности, у CDN Google иногда непрозрачная политика конфиденциальности."
+
+#: functions.php:208
+msgid "Load Google Fonts Locally"
+msgstr "Загружать Google шрифты локально"
+
+#: functions.php:184
+msgid "Change the font size of your site."
+msgstr "Измените размер шрифта вашего сайта."
+
+#: functions.php:183
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: functions.php:161
+msgid "Secondary font of the site."
+msgstr "Второстепенный шрифт на сайте."
+
+#: functions.php:160
+msgid "Secondary Font"
+msgstr "Второстепенный шрифт"
+
+#: functions.php:139
+msgid "Primary font of the site."
+msgstr "Основной шрифт на сайте."
+
+#: functions.php:138
+msgid "Primary Font"
+msgstr "Основной шрифт"
+
+#: functions.php:118
+msgid "Typography"
+msgstr "Оформление"
+
+#: functions.php:110
+msgid "Customize Typography & Background Image"
+msgstr "Настройте типографику и фоновое изображение"
+
+#: functions.php:109
+msgid "Appearance Settings"
+msgstr "Настройки внешнего вида"
+
+#: functions.php:96
+msgid "Primary color of the theme."
+msgstr "Основной цвет темы."
+
+#: functions.php:95
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#: functions.php:70
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr "Ссылка на документацию: %1$sНажмите тут.%2$s"
+
+#: functions.php:68
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr "Ссылка на демо: %1$sНажмите тут.%2$s"
+
+#: functions.php:55
+msgid "Demo & Documentation"
+msgstr "Демо и документация"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+#: functions.php:981
+#, gp-priority: low
+msgid "Blossom Themes"
+msgstr "Blossom шаблон"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://blossomthemes.com/wordpress-themes/travel-diary/"
+msgstr "https://blossomthemes.com/wordpress-themes/travel-diary/"
